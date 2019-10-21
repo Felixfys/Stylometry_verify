@@ -1,4 +1,4 @@
-#Fu Yushen 22292336
+
 #This program aims to use stylometry to verify authorship
 
 import math
@@ -182,5 +182,5 @@ def main(textfile1, arg2, normalize = False):
         profile = normalise(file,profile,num_sent)
         dist(profile1,profile)
         
-main("C:/Users/felix/Desktop/sample 2.txt",'listing', normalize = True)    
+
     
